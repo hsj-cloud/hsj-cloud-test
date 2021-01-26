@@ -144,16 +144,6 @@ double MSE_apporach(struct point p[],int n,double k,double b)
 		SSE+=(p[i].y-yi)*(p[i].y-yi);
 	}
 	MSE=SSE/n;
-	return MSE;
-}
+	return MSE
 
-
-
-
-
-
-
-
-
-
-
+		111111
